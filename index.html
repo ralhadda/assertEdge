@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
+  <title>Assert Edge Services</title>
+  <meta name="description" content="We help healthcare startups streamline QA with tailored test automation solutions, improving software reliability, speed, and compliance." />
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <!-- Place this script tag BEFORE your custom JavaScript -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
@@ -172,24 +175,24 @@
   </footer>
   <!-- <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
 <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script> -->
-<script>
-  window.onload = function() {
-    emailjs.init("ryR_Kdkt9LrqAxmHG"); // Your User ID (Public Key)
+  <script>
+    window.onload = function () {
+      emailjs.init("ryR_Kdkt9LrqAxmHG"); // Your User ID (Public Key)
 
-    document.querySelector(".form").addEventListener("submit", function (e) {
-      e.preventDefault();
+      document.querySelector(".form").addEventListener("submit", function (e) {
+        e.preventDefault();
 
-      emailjs.sendForm("service_rhobudc", "template_cc7x1p4", this)
-        .then(function () {
-          alert("Message sent successfully!");
-          e.target.reset();
-        }, function (error) {
-          alert("Failed to send message.");
-          console.error("EmailJS error:", error);
-        });
-    });
-  };
-</script>
+        emailjs.sendForm("service_rhobudc", "template_cc7x1p4", this)
+          .then(function () {
+            alert("Message sent successfully!");
+            e.target.reset();
+          }, function (error) {
+            alert("Failed to send message.");
+            console.error("EmailJS error:", error);
+          });
+      });
+    };
+  </script>
 
 </body>
 
