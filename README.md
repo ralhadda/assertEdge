@@ -1,4 +1,4 @@
-# AssertEdge Website - Modern Redesign
+# Assert Edge Services Website
 
 ## 🎉 What I Built For You
 
