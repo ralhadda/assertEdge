@@ -1,203 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Assert Edge Services</title>
-  <meta name="description" content="We help healthcare startups streamline QA with tailored test automation solutions, improving software reliability, speed, and compliance." />
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Place this script tag BEFORE your custom JavaScript -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- SEO Meta Tags -->
+  <title>AssertEdge | FDA-Ready Test Automation for Healthcare Startups</title>
+  <meta name="description" content="Expert test automation services for healthcare startups. 5+ years at Tandem Diabetes Care. Cypress, Selenium, FDA-compliant testing. Build reliable, scalable automation that meets regulatory requirements." />
+  <meta name="keywords" content="healthcare test automation, FDA test automation, medical device testing, Cypress automation, healthcare startup QA, regulated software testing, Tandem Diabetes, test automation consultant" />
+  <link rel="canonical" href="https://www.assertedge.com/" />
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Styles -->
   <link rel="stylesheet" href="styles.css" />
-  <title>AES</title>
 </head>
-
 <body>
-  <header class="full-screen-header">
-    <nav class="nav nav-top">
-      <span>A E S</span>
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#projects">Our Services</a></li>
-        <li><a class="btn" href="#contact">Contact</a></li>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">AssertEdge</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="btn btn-primary-small">Get Started</a></li>
       </ul>
-    </nav>
-    <h1 class="title">Assert Edge Services</h1>
-    <span class="sub-title">Software Test Automation for Healthcare Startups — From Setup to Scale</span>
-    <a class="btn btn-grow" href="#about-me">About</a>
-    <img class="scroll-down-icon" src="img/arrow_down.svg" alt="Scroll Down Icon" />
-  </header>
-  <main>
-    <section class="section">
-      <h2 class="section-title">About Assert Edge</h2>
-      <span id="about-me" class="about-me">AssertEdge provides specialized test automation services tailored for
-        healthcare startups. With over five years of hands-on experience in test automation within the healthcare
-        industry, I bring deep technical expertise and an understanding of the unique challenges healthcare technology
-        faces.
+    </div>
+  </nav>
 
-        Currently, I am the sole operator driving AssertEdge, dedicated to delivering high-quality, reliable, and
-        scalable automation solutions using Cypress and other modern tools. While starting as a one-person operation,
-        AssertEdge is built with growth in mind — ready to expand and support healthcare startups at every stage as
-        their automation needs evolve.
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-badge">
+        <span>🏥 Specialized in Healthcare Technology</span>
+      </div>
+      <h1 class="hero-title">
+        FDA-Ready Test Automation<br/>
+        <span class="gradient-text">for Healthcare Startups</span>
+      </h1>
+      <p class="hero-subtitle">
+        Built by a Test Automation Engineer with 5+ years at Tandem Diabetes Care.<br/>
+        Get reliable, compliant, and scalable automation using modern tools.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary btn-large">Schedule Free Consultation</a>
+        <a href="#services" class="btn btn-secondary btn-large">View Services</a>
+      </div>
+      <div class="hero-trust">
+        <p class="trust-text">Trusted by healthcare startups preparing for FDA submissions</p>
+      </div>
+    </div>
+  </section>
 
-        My mission is to empower healthcare innovators by ensuring their software is robust, compliant, and ready to
-        scale, so they can focus on what matters most: improving patient outcomes.</span>
-    </section>
-    <section class="section section-accent">
-      <h2 id="projects" class="section-title">Our Services</h2>
-      <div class="projects-container">
-        <div class="project-card">
-          <div class="project-header">
-            <div class="plan-name">Test Automation Setup</div>
-            <div class="project-flex">
-              <!-- <img
-                  class="project-img"
-                  src="img/routing-project.png"
-                  alt="Routing Project"
-                /> -->
-              <!-- <a class="plan-url" href="https://ramiz-alhaddad-client-api-routing.netlify.app"
-                  >Routing Project url</a
-                > -->
-            </div>
-          </div>
-          <div class="plan-features">
-            <div class="feature">
-              <ul>
-                <li>Set up reliable test automation frameworks tailored for healthcare startups.</li>
-                <li>Configure testing environments for consistent and repeatable runs.</li>
-                <li>Integrate automation tools smoothly with your development process.</li>
-                <li>Ensure the framework is scalable and easy to maintain.</li>
-                <li>Provide initial training and documentation for smooth adoption.</li>
-              </ul>
-            </div>
-          </div>
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">5.7+</div>
+          <div class="stat-label">Years Experience</div>
         </div>
-        <div class="project-card">
-          <div class="project-header">
-            <div class="plan-name">Test Automation Scripts</div>
-            <div class="project-flex">
-              <!-- <img class="project-img" src="img/personal-website.png" alt="Routing Project" />
-              <a class="plan-url" href="https://web1-f3814.web.app">Personal Website url</a> -->
-            </div>
-          </div>
-          <div class="plan-features">
-            <div class="feature">
-              <ul>
-                <li>Develop clear, reusable, and maintainable test scripts to cover critical workflows.</li>
-                <li>Implement automated tests using Cypress tailored for healthcare applications.</li>
-                <li>Ensure scripts are efficient, reliable, and easy to update as requirements evolve.</li>
-                <li>Integrate tests into continuous integration pipelines for fast feedback.</li>
-                <li>Provide support and best practices for script maintenance and scaling.</li>
-              </ul>
-            </div>
-          </div>
+        <div class="stat-item">
+          <div class="stat-number">FDA</div>
+          <div class="stat-label">Compliant Testing</div>
         </div>
-        <div class="project-card">
-          <div class="project-header">
-            <div class="plan-name">CI/CD Integration</div>
-            <div class="project-flex">
-              <!-- <img class="project-img" src="img/ecommerce-web-app.png" alt="Routing Project" />
-              <a class="plan-url" href="https://ramiz-shopping-cart-react.netlify.app">Ecommerce Web App url</a> -->
-            </div>
-          </div>
-          <div class="plan-features">
-            <div class="feature">
-              <ul>
-                <li>Integrate automated tests seamlessly into your continuous integration and deployment pipelines.</li>
-                <li>Ensure rapid feedback on code changes to catch issues early.</li>
-                <li>Automate test execution on every commit or pull request.</li>
-                <li>Support GitHub Actions</li>
-                <li>Help maintain high software quality and faster release cycles.</li>
-              </ul>
+        <div class="stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Healthcare Focused</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About AssertEdge</span>
+        <h2 class="section-title">Expert Test Automation with<br/>Medical Device Industry Experience</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="lead-text">
+            I'm a Test Automation Engineer with <strong>5 years and 7 months of experience at Tandem Diabetes Care</strong>, 
+            where I automated tests for patient-facing web applications used by thousands of healthcare professionals and patients.
+          </p>
+          <p>
+            At Tandem, I worked on <strong>FDA submissions and validation documentation</strong>, giving me deep understanding 
+            of what it takes to build test automation that meets regulatory requirements. I know the challenges healthcare 
+            startups face when trying to balance speed with compliance.
+          </p>
+          <p>
+            Now, through AssertEdge, I help healthcare startups build <strong>reliable, FDA-ready test automation</strong> using 
+            modern tools like Cypress, Selenium, and GitHub Actions. Whether you're preparing for your first submission or 
+            scaling your testing infrastructure, I can help you get there faster.
+          </p>
+          
+          <div class="tech-stack">
+            <h3>Technology Expertise</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">Cypress</span>
+              <span class="tech-badge">Selenium</span>
+              <span class="tech-badge">Appium</span>
+              <span class="tech-badge">JavaScript/TypeScript</span>
+              <span class="tech-badge">GitHub Actions</span>
+              <span class="tech-badge">Postman/API Testing</span>
+              <span class="tech-badge">CI/CD Pipelines</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Professional Background</span>
+        <h2 class="section-title">Proven Experience in Medical Device Software</h2>
       </div>
-    </section>
-    <!-- <section class="section section-accent">
-      <h2 class="section-title">Langauges and Frameworks</h2>
-      <div class="curriculum-grid">
-        <div class="curriculum-grid-item">
-          <img src="img/html_icon.svg" alt="HTML 5 Icon" />
-          <p>
-            Built responsive websites using HTML/CSS
-          </p>
+      <div class="experience-card">
+        <div class="experience-header">
+          <div>
+            <h3>Test Automation Engineer</h3>
+            <p class="company-name">Tandem Diabetes Care, Inc.</p>
+          </div>
+          <div class="experience-duration">2018 - 2024 • 5.7 years</div>
         </div>
-        <div class="curriculum-grid-item">
-          <img src="img/node_js_icon.svg" alt="Node JS Icon" />
-          <p>
-            Used JavaScript/TypeScript for developing web applications
-          </p>
+        <div class="experience-highlights">
+          <h4>Key Achievements & Responsibilities:</h4>
+          <ul>
+            <li>
+              <strong>Automated testing for patient-facing web applications</strong> used by healthcare professionals 
+              and patients with diabetes
+            </li>
+            <li>
+              <strong>Contributed to FDA submission documentation</strong> including test protocols, traceability matrices, 
+              and validation reports
+            </li>
+            <li>
+              <strong>Built test automation frameworks</strong> using Cypress and Selenium for web applications
+            </li>
+            <li>
+              <strong>Implemented CI/CD pipelines</strong> with GitHub Actions for automated test execution
+            </li>
+            <li>
+              <strong>Developed mobile test automation</strong> using Appium for iOS and Android applications
+            </li>
+            <li>
+              <strong>Created API test suites</strong> using Postman and JavaScript for backend validation
+            </li>
+            <li>
+              <strong>Collaborated with cross-functional teams</strong> including product, engineering, and regulatory 
+              to ensure software quality and compliance
+            </li>
+          </ul>
         </div>
-        <div class="curriculum-grid-item">
-          <img src="img/database_icon.svg" alt="Database Icon" />
-          <p>
-            Deployed Websites using Netlify and Render to Ensure Optimal
-            Website Hosting and Performance
-          </p>
-        </div>
-        <div class="curriculum-grid-item">
-          <img src="img/react_icon.svg" alt="React Icon" />
-          <p>Developed web applications using React.js</p>
+        <div class="experience-regulatory">
+          <h4>Regulatory & Compliance Knowledge:</h4>
+          <ul>
+            <li>21 CFR Part 11 (FDA Electronic Records)</li>
+            <li>IEC 62304 (Medical Device Software Lifecycle)</li>
+            <li>Risk-based testing approaches (ISO 14971)</li>
+            <li>Test documentation for regulatory submissions</li>
+            <li>Design controls and traceability requirements</li>
+          </ul>
         </div>
       </div>
-    </section> -->
-    <section class="section">
-      <h2 id="contact" class="section-title">Contact</h2>
-      <form class="form">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-        <label for="message">Message</label>
-        <textarea name="message" id="message"></textarea>
-        <div class="btn-container">
-          <button class="btn btn-square" type="submit">Send</button>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Services</span>
+        <h2 class="section-title">Comprehensive Test Automation Solutions</h2>
+        <p class="section-description">
+          From initial setup to ongoing maintenance, I provide end-to-end test automation services 
+          tailored for healthcare startups.
+        </p>
+      </div>
+      
+      <div class="pricing-grid">
+        <!-- Starter Package -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Starter Package</h3>
+            <div class="pricing-price">
+              <span class="price-amount">$8,000</span>
+            </div>
+            <p class="pricing-description">Perfect for early-stage startups getting started with test automation</p>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Initial consultation & requirements gathering</li>
+            <li>✓ Cypress framework setup</li>
+            <li>✓ 20 automated test scripts for core workflows</li>
+            <li>✓ CI/CD integration with GitHub Actions</li>
+            <li>✓ Basic test documentation templates</li>
+            <li>✓ 2-hour training session for your team</li>
+            <li>✓ Documentation and handoff</li>
+          </ul>
+          <div class="pricing-timeline">
+            <strong>Timeline:</strong> 3-4 weeks
+          </div>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
         </div>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <nav class="nav">
-      <span>Porfolio</span>
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#projects">Our Services</a></li>
-        <li><a class="btn" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+
+        <!-- Growth Package -->
+        <div class="pricing-card featured">
+          <div class="featured-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Growth Package</h3>
+            <div class="pricing-price">
+              <span class="price-amount">$15,000</span>
+            </div>
+            <p class="pricing-description">For startups preparing for FDA submissions or scaling quickly</p>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Everything in Starter, plus:</li>
+            <li>✓ 50+ automated test scripts</li>
+            <li>✓ API testing with Postman/Newman</li>
+            <li>✓ FDA-compliant test documentation</li>
+            <li>✓ Traceability matrix setup</li>
+            <li>✓ Risk-based test strategy</li>
+            <li>✓ Mobile testing setup (Appium)</li>
+            <li>✓ 2 weeks of post-launch support</li>
+          </ul>
+          <div class="pricing-timeline">
+            <strong>Timeline:</strong> 6-8 weeks
+          </div>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <!-- Enterprise Package -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Enterprise Package</h3>
+            <div class="pricing-price">
+              <span class="price-amount">Custom</span>
+            </div>
+            <p class="pricing-description">Comprehensive automation for established startups with complex needs</p>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Everything in Growth, plus:</li>
+            <li>✓ Comprehensive test automation strategy</li>
+            <li>✓ 100+ automated test scripts</li>
+            <li>✓ Performance & security testing</li>
+            <li>✓ Complete FDA submission documentation support</li>
+            <li>✓ Custom framework development</li>
+            <li>✓ Ongoing retainer available</li>
+            <li>✓ Dedicated support</li>
+          </ul>
+          <div class="pricing-timeline">
+            <strong>Timeline:</strong> 10-12 weeks
+          </div>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="services-cta">
+        <p>Not sure which package is right for you? <a href="#contact">Schedule a free consultation</a> to discuss your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="why-choose-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Healthcare Startups Choose AssertEdge</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">🏥</div>
+          <h3>Healthcare Specialized</h3>
+          <p>Deep understanding of HIPAA, FDA regulations, and medical device software requirements from years at Tandem Diabetes Care.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📋</div>
+          <h3>FDA Documentation</h3>
+          <p>Experience creating test documentation, traceability matrices, and validation protocols that meet FDA submission requirements.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">⚡</div>
+          <h3>Modern Tech Stack</h3>
+          <p>Using the latest tools (Cypress, GitHub Actions) that healthcare startups actually use, not outdated legacy frameworks.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🎯</div>
+          <h3>Startup Focused</h3>
+          <p>Understand the unique challenges of startups: limited resources, tight timelines, and the need to move fast while staying compliant.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🔄</div>
+          <h3>End-to-End Support</h3>
+          <p>From initial setup to CI/CD integration to ongoing maintenance, I provide comprehensive support at every stage.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">💪</div>
+          <h3>Proven Experience</h3>
+          <p>5.7 years at a leading medical device company, working on software used by thousands of patients and healthcare professionals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Build FDA-Ready Test Automation?</h2>
+        <p>Schedule a free 30-minute consultation to discuss your testing needs and how I can help.</p>
+        <a href="#contact" class="btn btn-primary btn-large">Schedule Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Discuss Your Project</h2>
+        <p class="section-description">
+          Fill out the form below and I'll get back to you within 24 hours.
+        </p>
+      </div>
+      <div class="contact-container">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" />
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me about your project *</label>
+            <textarea id="message" name="message" rows="6" required placeholder="What type of healthcare application are you building? What are your testing challenges? When do you need this by?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>AssertEdge</h3>
+          <p>FDA-Ready Test Automation for Healthcare Startups</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 AssertEdge. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
-  <!-- <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
-<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script> -->
+
+  <!-- EmailJS Script -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
     window.onload = function () {
-      emailjs.init("ryR_Kdkt9LrqAxmHG"); // Your User ID (Public Key)
+      emailjs.init("ryR_Kdkt9LrqAxmHG");
 
-      document.querySelector(".form").addEventListener("submit", function (e) {
+      document.getElementById('contactForm').addEventListener("submit", function (e) {
         e.preventDefault();
 
         emailjs.sendForm("service_rhobudc", "template_cc7x1p4", this)
           .then(function () {
-            alert("Message sent successfully!");
+            alert("Message sent successfully! I'll get back to you within 24 hours.");
             e.target.reset();
           }, function (error) {
-            alert("Failed to send message.");
+            alert("Failed to send message. Please try again or email directly.");
             console.error("EmailJS error:", error);
           });
       });
     };
   </script>
 
-  <div data-sa-url="https://44ddea1a-0a54-4239-9db1-b0e520f533df.scoreapp.com/?sa_target=_top" data-sa-view="chat" data-sa-icon="https://cdn.scoreapp.com/assets/icons/conversation.svg" data-sa-auto-open="0" data-sa-button-bg-color="#00cdfb" data-sa-button-color="#323A3F" data-sa-button-text="Test automation readiness quiz" data-sa-font-size="16"></div>
-               
-<script src="https://static.scoreapp.com/js/integration/v1/embedding.js?v=1DKiz6"></script>
-
+  <!-- ScoreApp Quiz Widget -->
+  <div data-sa-url="https://44ddea1a-0a54-4239-9db1-b0e520f533df.scoreapp.com/?sa_target=_top" 
+       data-sa-view="chat" 
+       data-sa-icon="https://cdn.scoreapp.com/assets/icons/conversation.svg" 
+       data-sa-auto-open="0" 
+       data-sa-button-bg-color="#00cdfb" 
+       data-sa-button-color="#323A3F" 
+       data-sa-button-text="Test automation readiness quiz" 
+       data-sa-font-size="16">
+  </div>
+  <script src="https://static.scoreapp.com/js/integration/v1/embedding.js?v=1DKiz6"></script>
 </body>
-
 </html>
